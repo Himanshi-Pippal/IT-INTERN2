@@ -1,0 +1,56 @@
+.outer-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image1.jpg'); /* add your outer box background image here */
+    background-size: cover;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.inner-box {
+    
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    background-image: url('image2.jpg'); /* add your inner box background image here */
+    background-size: cover;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: #14e5bb;
+    border-radius: 10px;
+    background-color: #e4dada;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2cb727;
+}
+
+#display {
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 40px;
+}
